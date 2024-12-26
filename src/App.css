@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+body {
+  height: 100%;
+  background: radial-gradient(white, rgb(245, 234, 244));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.form1 {
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  border: 1px groove #ccc;
+  width: 100%;
+  max-width: 560px;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 10px 10px 20px rgba(0, 0.5, 0, 0.5);
+}
+
+.basic, .contact, .address, .add {
+  background-color: #eabff1;
+  border-style: dotted;
+  height: 50px;
+  color: white;
+  border-color: #eabff1;
+}
+
+.form1 input, .form1 select, .form1 textarea {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button.b1 {
+  background-color: #cb03f3;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button.b1:hover {
+  background-color: #7f0997;
+}
+
+small {
+  color: #888;
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .form1 {
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+
+  .form1 input,
+  .form1 select,
+  .form1 textarea {
+      padding: 10px;
+      font-size: 14px;
+  }
+
+  button.b1 {
+      padding: 10px 20px;
+      font-size: 14px;
+      width: auto;
+  }
+}
