@@ -10,7 +10,7 @@ body {
   height: 100%;
   background: radial-gradient(white, rgb(245, 234, 244));
   display: flex;
-  justify-content: center;
+  justify-content:space-evenly;
   align-items: center;
   font-family: Arial, sans-serif;
 }
@@ -20,7 +20,7 @@ body {
   margin: 10px;
   padding: 10px;
   border: 1px groove #ccc;
-  width: 100%;
+  width: 800px;
   max-width: 560px;
   border-radius: 30px;
   background-color: white;
